@@ -7,6 +7,9 @@ SVS_DIR = config["input_dir"]
 RESULTS_DIR = config["results_dir"]
 GRANDQC_PATH = config["grandqc_path"]
 
+# For GrandQC, you need to first run the tissue segmnentation and then the artificat segmentation. 
+# So, the rules are going to run in a specific sequence. 1. run_tis, then 2. run_art
+
 rule all:
     input:
         os.path.join(RESULTS_DIR, "artifact_segmentation.done")
