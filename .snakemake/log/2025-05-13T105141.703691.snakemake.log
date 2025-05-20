@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+all            1
+run_art        1
+run_tis        1
+total          3
+
+Select jobs to execute...
+
+[Tue May 13 10:51:42 2025]
+rule run_tis:
+    output: /Users/puravgupta/Documents/Research/Pancreas_TLS_ML/GrandQC_out/tissue_segmentation.done
+    jobid: 2
+    reason: Missing output files: /Users/puravgupta/Documents/Research/Pancreas_TLS_ML/GrandQC_out/tissue_segmentation.done
+    resources: tmpdir=/var/folders/_3/5xh3_zfd4y1dlg5syjm8rkw00000gn/T
+
+[Tue May 13 10:51:42 2025]
+Error in rule run_tis:
+    jobid: 2
+    output: /Users/puravgupta/Documents/Research/Pancreas_TLS_ML/GrandQC_out/tissue_segmentation.done
+    shell:
+        
+        python wsi_tis_detect.py --slide_folder "/Users/puravgupta/Documents/Research/Pancreas_TLS_ML/WSI/" --output_dir "/Users/puravgupta/Documents/Research/Pancreas_TLS_ML/GrandQC_out/"
+        echo "Tissue Segmentation is completed!" > /Users/puravgupta/Documents/Research/Pancreas_TLS_ML/GrandQC_out/tissue_segmentation.done
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-05-13T105141.703691.snakemake.log
