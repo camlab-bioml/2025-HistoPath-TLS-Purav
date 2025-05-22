@@ -1,3 +1,3 @@
-input_dir: "/Users/puravgupta/Documents/Research/Pancreas_TLS_ML/WSI/"
-results_dir: "/Users/puravgupta/Documents/Research/Pancreas_TLS_ML/2025-HistoPath-TLS-Purav/art_out/"
-grandqc_path: "/Users/puravgupta/Documents/Research/Pancreas_TLS_ML/grandqc/01_WSI_inference_OPENSLIDE_QC"
+input_dir: "/ddn_exa/campbell/share/datasets/TCGA-histopath/"
+results_dir: "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TCGA_out/"
+grandqc_path: "/ddn_exa/campbell/pgupta/grandqc/01_WSI_inference_OPENSLIDE_QC/"

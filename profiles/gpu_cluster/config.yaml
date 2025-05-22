@@ -1,0 +1,12 @@
+executor: slurm
+use-conda: false
+jobs: 2
+latency-wait: 60
+restart-times: 0
+keep-going: true
+default-resources:
+  - slurm_partition=gpu
+  - nodelist=gpu1
+  - runtime=720
+  - mem_mb=16000
+  - gpus=1
