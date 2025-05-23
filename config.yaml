@@ -1,3 +1,5 @@
-input_dir: "/ddn_exa/campbell/share/datasets/TCGA-histopath/"
-results_dir: "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TCGA_out/"
-grandqc_path: "/ddn_exa/campbell/pgupta/grandqc/01_WSI_inference_OPENSLIDE_QC/"
+results_dir: "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TLS_gallery"
+input_dir: "/ddn_exa/campbell/pgupta/TCGA_data"
+tls_geojson_dir: "tls_geojson"
+qc_geojson_dir: "qc_geojson"
+wsi_level: 0  # WSI level for visualization (0 is highest resolution)

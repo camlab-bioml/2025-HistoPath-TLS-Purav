@@ -1,0 +1,15 @@
+executor: slurm
+jobs: 100  # Max number of SLURM jobs to run in parallel
+jobname: snakemake.{jobid}
+
+# Default resources applied to all rules
+default-resources:
+  slurm_partition: "guest"
+  mem_mb_per_cpu: 4000  # Assume 4GB per core
+  runtime: 180          # 3 hours per job
+
+# Enable conda environments and robust execution
+use-conda: true
+keep-going: true
+rerun-incomplete: true
+printshellcmds: true
