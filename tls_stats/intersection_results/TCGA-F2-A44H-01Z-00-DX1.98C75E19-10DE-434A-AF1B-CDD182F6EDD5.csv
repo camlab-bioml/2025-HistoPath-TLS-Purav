@@ -1,0 +1,6 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-F2-A44H-01Z-00-DX1.98C75E19-10DE-434A-AF1B-CDD182F6EDD5,Annotation 0: TLS number 0,2212480.0,135199.8738432,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-A44H-01Z-00-DX1.98C75E19-10DE-434A-AF1B-CDD182F6EDD5,Annotation 1: TLS number 1,369792.0,22597.19036928,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-A44H-01Z-00-DX1.98C75E19-10DE-434A-AF1B-CDD182F6EDD5,Annotation 2: TLS number 2,4145280.0,253309.1069952,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-A44H-01Z-00-DX1.98C75E19-10DE-434A-AF1B-CDD182F6EDD5,Annotation 3: TLS number 3,2099328.0,128285.39953152,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-A44H-01Z-00-DX1.98C75E19-10DE-434A-AF1B-CDD182F6EDD5,Annotation 4: TLS number 4,3534336.0,215975.63879424002,QC_4,Fold,145200.27217456832,8872.874999999975,145200.27217456832,8872.874999999975,4.108275845153611,100.0,True

@@ -1,0 +1,5 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86,Annotation 0: TLS number 0,482816.0,30660.747264,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86,Annotation 1: TLS number 1,486912.0,30920.859648,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86,Annotation 2: TLS number 2,1614848.0,102549.307392,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86,Annotation 3: TLS number 3,343524.0,21815.148095999997,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False

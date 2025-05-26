@@ -1,0 +1,9 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 0: TLS number 0,1672320.0,106199.00928,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 1: TLS number 1,2374912.0,150816.411648,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 2: TLS number 2,630272.0,40024.793088,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 3: TLS number 3,2206336.0,140111.161344,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 4: TLS number 4,713728.0,45324.582912000005,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 5: TLS number 5,929280.0,59012.99712,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 6: TLS number 6,2069888.0,131446.167552,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-F2-7276-01Z-00-DX1.A2BB6B97-402F-4452-BFCF-0388B01EFBE5,Annotation 7: TLS number 7,303488.0,19272.701952,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False

@@ -1,0 +1,25 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 0: TLS number 0,226560.0,14387.466240000002,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 1: TLS number 1,1326848.0,84260.155392,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 2: TLS number 2,463488.0,29433.341952,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 3: TLS number 3,562688.0,35732.938751999995,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 4: TLS number 4,147184848.0,9346826.587392,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 5: TLS number 5,1378688.0,87552.202752,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 6: TLS number 6,7872640.0,499944.13056,QC_6,Darkspot & Foreign Object,1059630.1020408177,67290.7500000001,94432.13832199415,5996.818511999916,1.1994977329332237,8.91180216002929,True
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 7: TLS number 7,665728.0,42276.390912,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 8: TLS number 8,1305216.0,82886.436864,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 9: TLS number 9,1099520.0,69823.91807999999,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 10: TLS number 10,214400.0,13615.2576,QC_10,Fold,59630.10204081657,3786.7500000000155,47190.50340136075,2996.785728000013,22.01049598944065,79.13872655971481,True
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 10: TLS number 10,214400.0,13615.2576,QC_11,Fold,150651.92743764204,9567.00000000002,77274.89285714319,4907.264796000021,36.042394056503355,51.29366359360312,True
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 11: TLS number 11,372352.0,23645.841408,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 12: TLS number 12,655360.0,41617.98144,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 13: TLS number 13,904576.0,57444.194304000004,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 14: TLS number 14,411008.0,26100.652032,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 15: TLS number 15,780032.0,49535.152128,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 16: TLS number 16,290688.0,18459.850752000002,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 17: TLS number 17,273920.0,17395.01568,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 18: TLS number 18,483968.0,30733.903872,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 19: TLS number 19,408192.0,25921.824768000002,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 20: TLS number 20,548736.0,34846.930944,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 0: TLS number 21,73216.0,4649.508864,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5920-01Z-00-DX1.2aa8667a-3eb1-4b9c-b8de-b0cfce479e90,Annotation 1: TLS number 22,151680.0,9632.28672,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False

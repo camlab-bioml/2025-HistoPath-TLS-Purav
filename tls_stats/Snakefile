@@ -1,0 +1,43 @@
+# filepath: /ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/tls_stats/Snakefile
+import os
+import glob
+from os.path import basename, splitext, join
+
+# Set up paths
+SCRIPT_DIR="/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/tls_stats"
+TLS_DIR="/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/mod_TLS_json"
+QC_DIR="/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/qc_geojson"
+OUTPUT_DIR="/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/tls_stats/intersection_results"
+
+# WSI directory - Update this path to match your WSI file location
+WSI_DIR="/ddn_exa/campbell/pgupta/TCGA_data" 
+
+# Create necessary directories
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
+with open('tls_acc.txt', 'r') as f:
+    SAMPLE_IDS = [name.strip('\n') for name in f]
+
+print(f"Sample IDs: {SAMPLE_IDS}")
+
+rule all:
+    input:
+        # Generate all csv files for each sample
+        expand(os.path.join(OUTPUT_DIR, "{sample}.csv"), 
+               sample=SAMPLE_IDS),
+
+rule parse:
+    input:
+        tls_geojson = os.path.join(TLS_DIR, "mod_{sample}.geojson"),
+        qc_geojson = os.path.join(QC_DIR, "{sample}.svs.geojson"),
+        wsi = os.path.join(WSI_DIR, "{sample}.svs")
+    output:
+        csv_file = os.path.join(OUTPUT_DIR, "{sample}.csv")
+    params:
+        script_dir = SCRIPT_DIR
+    shell:
+        """
+        cd {params.script_dir}
+        python calc_intersect.py {input.tls_geojson} {input.qc_geojson} {output.csv_file} {input.wsi}
+        """

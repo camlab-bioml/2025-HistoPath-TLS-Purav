@@ -1,0 +1,13 @@
+Starting TLS+QC visualization...
+Processing TLS file: tls_geojson/TCGA-HZ-7924-01Z-00-DX1.d73d1606-bda1-441b-ab00-69645fae6553.geojson
+Processing QC file: qc_geojson/TCGA-HZ-7924-01Z-00-DX1.d73d1606-bda1-441b-ab00-69645fae6553.svs.geojson
+Loaded QC annotations: 23 items
+Traceback (most recent call last):
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/main_visualizer_tls_qc.py", line 79, in <module>
+    generate_tls_qc_visualization(tls_json_file, qc_json_file, wsi_file, output_file, wsi_level)
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/main_visualizer_tls_qc.py", line 35, in generate_tls_qc_visualization
+    annotations = tls_annotations_json(modified_json)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/parse_json.py", line 72, in tls_annotations_json
+    raise ValueError("No annotations found in the JSON file.")
+ValueError: No annotations found in the JSON file.

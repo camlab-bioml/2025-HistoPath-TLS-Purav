@@ -1,0 +1,2 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-HZ-A8P1-01Z-00-DX1.22B7AE4A-DA67-4B50-899A-1BC3F736061B,Annotation 0: TLS number 0,774400.0,49177.497599999995,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False

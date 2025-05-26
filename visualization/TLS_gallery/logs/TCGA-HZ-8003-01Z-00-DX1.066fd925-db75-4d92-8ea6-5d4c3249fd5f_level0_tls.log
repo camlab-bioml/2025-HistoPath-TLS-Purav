@@ -1,0 +1,9 @@
+Starting TLS-only visualization...
+Processing TLS file: tls_geojson/TCGA-HZ-8003-01Z-00-DX1.066fd925-db75-4d92-8ea6-5d4c3249fd5f.geojson
+Loaded TLS annotations: 5 items
+Generating TLS visualization at level 0...
+Using WSI level 0 with downsample factor 1.0
+Loaded 5 TLS annotations
+Total processing time: 4.79 seconds
+TLS visualization complete. Image saved to: /ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TLS_gallery/tls_images/TCGA-HZ-8003-01Z-00-DX1.066fd925-db75-4d92-8ea6-5d4c3249fd5f_level0_TLS.png
+Processing time: 4.84 seconds

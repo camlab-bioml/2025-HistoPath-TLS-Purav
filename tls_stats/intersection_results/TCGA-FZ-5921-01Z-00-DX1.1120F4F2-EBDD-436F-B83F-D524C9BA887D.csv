@@ -1,0 +1,7 @@
+sample_name,tls_id,tls_area_pixels,tls_area_microns,qc_id,qc_type,qc_area_pixels,qc_area_microns,intersection_area_pixels,intersection_area_microns,tls_overlap_percentage,qc_overlap_percentage,has_intersection
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 0: TLS number 0,832384.0,53153.786479359995,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 1: TLS number 1,527616.0,33692.12792063999,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 2: TLS number 2,323968.0,20687.718526719997,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 3: TLS number 3,716544.0,45756.558005759995,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 4: TLS number 4,985728.0,62945.91875711999,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False
+mod_TCGA-FZ-5921-01Z-00-DX1.1120F4F2-EBDD-436F-B83F-D524C9BA887D,Annotation 5: TLS number 5,1051776.0,67163.56504704,None,None,0.0,0.0,0.0,0.0,0.0,0.0,False

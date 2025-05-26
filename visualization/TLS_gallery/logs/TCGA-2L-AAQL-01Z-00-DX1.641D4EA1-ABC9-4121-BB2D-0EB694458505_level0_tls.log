@@ -1,0 +1,11 @@
+Starting TLS-only visualization...
+Processing TLS file: tls_geojson/TCGA-2L-AAQL-01Z-00-DX1.641D4EA1-ABC9-4121-BB2D-0EB694458505.geojson
+Traceback (most recent call last):
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/main_visualizer_tls.py", line 68, in <module>
+    generate_tls_visualization(tls_json_file, wsi_file, output_file, wsi_level)
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/main_visualizer_tls.py", line 26, in generate_tls_visualization
+    annotations = tls_annotations_json(modified_json)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/parse_json.py", line 72, in tls_annotations_json
+    raise ValueError("No annotations found in the JSON file.")
+ValueError: No annotations found in the JSON file.

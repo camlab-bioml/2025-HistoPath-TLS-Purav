@@ -1,0 +1,14 @@
+/ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/visualize_annotations_tls_qc.py:101: UserWarning: Setting the 'color' property will override the edgecolor or facecolor properties.
+  mpl_qc_poly = mplPolygon(translated_scaled_coords, fill=True, color=qc_color, alpha=0.4, linewidth=1, edgecolor=qc_color)
+Starting TLS+QC visualization...
+Processing TLS file: tls_geojson/TCGA-HZ-A77Q-01Z-00-DX1.B28D133B-8DB7-4B89-93BE-3F09C0F101EE.geojson
+Processing QC file: qc_geojson/TCGA-HZ-A77Q-01Z-00-DX1.B28D133B-8DB7-4B89-93BE-3F09C0F101EE.svs.geojson
+Loaded QC annotations: 50 items
+Loaded TLS annotations: 1 items
+Generating TLS+QC visualization at level 0...
+Using WSI level 0 with downsample factor 1.0
+Loaded 1 TLS annotations and 50 QC annotations
+Pre-computed intersections in 1.07 seconds
+Total processing time: 4.97 seconds
+TLS+QC visualization complete. Image saved to: /ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TLS_gallery/tls_qc_images/TCGA-HZ-A77Q-01Z-00-DX1.B28D133B-8DB7-4B89-93BE-3F09C0F101EE_level0_TLS_QC.png
+Processing time: 5.05 seconds

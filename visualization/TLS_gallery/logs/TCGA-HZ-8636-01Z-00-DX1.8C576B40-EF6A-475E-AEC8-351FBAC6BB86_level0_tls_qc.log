@@ -1,0 +1,12 @@
+Starting TLS+QC visualization...
+Processing TLS file: tls_geojson/TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86.geojson
+Processing QC file: qc_geojson/TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86.svs.geojson
+Loaded QC annotations: 370 items
+Loaded TLS annotations: 4 items
+Generating TLS+QC visualization at level 0...
+Using WSI level 0 with downsample factor 1.0
+Loaded 4 TLS annotations and 370 QC annotations
+Pre-computed intersections in 0.74 seconds
+Total processing time: 6.30 seconds
+TLS+QC visualization complete. Image saved to: /ddn_exa/campbell/pgupta/2025-HistoPath-TLS-Purav/TLS_gallery/tls_qc_images/TCGA-HZ-8636-01Z-00-DX1.8C576B40-EF6A-475E-AEC8-351FBAC6BB86_level0_TLS_QC.png
+Processing time: 6.73 seconds
